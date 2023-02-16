@@ -42,7 +42,7 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: gcr.io/gentle-complex-369717/frontend
+          image: gcr.io/ordinal-torch-377801/frontend
           ports:
           - containerPort: 8080
           env:

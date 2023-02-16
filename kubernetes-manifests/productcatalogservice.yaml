@@ -41,7 +41,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: gcr.io/gentle-complex-369717/productcatalogservice
+        image: gcr.io/ordinal-torch-377801/productcatalogservice:v1
         ports:
         - containerPort: 3550
         env:
