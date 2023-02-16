@@ -17,7 +17,7 @@ package money
 import (
 	"errors"
 
-	pb "github.com/lightstep/hipster-shop/src/frontend/genproto"
+	pb "github.com/GoogleCloudPlatform/microservices-demo/src/frontend/genproto"
 )
 
 const (
