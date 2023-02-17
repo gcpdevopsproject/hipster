@@ -1,8 +1,8 @@
 pipeline {
 
   environment {
-    PROJECT = "shaped-producer-355514"
-    APP_NAME = "frontend"
+    PROJECT = "ordinal-torch-377801"
+    APP_NAME = "frontendservice"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "cluster-1"
     CLUSTER_ZONE = "us-central1-c"
@@ -63,7 +63,7 @@ spec:
       steps {
         container('kubectl') {
           
-          sh "gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project shaped-producer-355514"
+          sh "gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project ordinal-torch-377801"
           sh "kubectl apply -f frontend.yaml"
         }
       }
